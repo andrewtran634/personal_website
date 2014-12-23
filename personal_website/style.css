@@ -1,0 +1,175 @@
+* { margin:0; padding:0; }   
+   a {
+        color:black;
+        text-decoration: none;
+    }
+    a:hover {
+        color:white;
+        background-color:#FFA7A7;
+        -o-transition:.5s;
+        -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        /* ...and now for the proper property */
+        transition:.5s;
+    }
+        
+    a:visited{ 
+        text-decoration:none;
+    }
+	body {
+/* 		background-color: gainsboro;
+ */	}
+    .back {
+		padding-top:0px;
+		padding-left:0px;
+		padding: 0;
+        background-size: cover;
+		background-color: #F7DEFF;
+		margin: 0px;
+		height:100vh;
+		border: 0px;
+		font-family:Centaur, sans-serif;
+		text-align:center;
+    }
+    #HOME {
+        margin: 0px;
+        position: relative;
+        left: 300px;
+        font-size:20px;
+        float:left;
+    }
+    #ABOUT {
+        vertical-align:top;
+        margin:0px;
+        position: relative;
+        right: 300px;
+        font-family:Centaur, sans-serif;
+        font-size:20px;
+        float:right;
+    }
+        
+    #home {	
+        display:block;
+        position:fixed;
+        right:0px;
+        top:30px
+    }
+    #home:hover{
+        color:white;
+        background-color:#FFA7A7;
+        -o-transition:.5s;
+        -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        /* ...and now for the proper property */
+        transition:.5s;
+    }
+    #about {  
+		display:block;
+        position:fixed;
+        right: 0px;
+        top: 0px;
+    }
+            
+    #about:hover{
+        color:white;
+        background-color:#FFA7A7;
+        -o-transition:.5s;
+        -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        /* ...and now for the proper property */
+        transition:.5s;
+    }
+    .About {
+    color:black;
+    background-color:#E8FFFF;
+    height:30px;
+    width:100%;
+
+    }
+    .Home {
+        color:black;
+        background-color:#E8FFFF;
+        height:30px;
+        width:100%;
+        float:left;
+
+    }
+    #squarish {
+		bottom: 200px;
+		height: 250px;
+        width: 250px;
+        border-radius: 10%;
+        margin-left: auto;
+        margin-right: auto;
+		margin-top:10%;
+        background-color:#E8FFFF;
+    }
+    #squarish:hover {
+        color:white;
+        background-color:#FFA7A7;
+        -o-transition:.5s;
+        -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        /* ...and now for the proper property */
+        transition:.5s;
+    }
+    #andy {
+        color:black;
+        position:relative;
+        top:80px;
+        font-family:Centaur, sans-serif;
+        text-align:center;
+    }
+    #downmore {
+        position:relative;
+        margin-top:20%;
+        background-color:#FFF8F1;
+    }
+    #squarishpic {
+        height: 250px;
+        width: 250px;
+        border-radius: 10%;
+        margin-top: 20%;
+        position:relative;
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+    }    
+    #bioparagraph {
+        font-family:Centaur, sans-serif;
+        text-align:center;
+        font-size:20px;
+    }
+    #header {
+        font-family:Centaur, sans-serif;
+        text-align:center;
+        font-size:20px;
+        color:#FFA7A7;
+    }
+    #contact {
+		font-family:Centaur, sans-serif;
+		text-align: center;
+		display: inline;
+	}
+	#bottomhalf {
+		padding: 0;
+		height: 100%;
+		width: 100%;
+		background-color: #FFF2F2;
+		display: inline-block;
+	}
+	#floral {
+		border-radius: 3%;
+		margin-top: 5%;
+		background-image: url(Scan0001.jpg);
+		height: 70%;
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		background-repeat: no-repeat;
+		display:inline-block;
+	}

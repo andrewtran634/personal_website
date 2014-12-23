@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <title>Andy Tran</title>
+	<link href="style.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+             $('#home').hide().fadeIn({duration:800,easing:"swing"});
+            $('#about').hide().fadeIn({duration:800,easing:"swing"});
+            $('#squarish').hide().fadeIn({duration:800,easing:"swing"});
+			$('#floral').hide().fadeIn({duration:800,easing:"swing"});
+
+			
+        });
+    </script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <script>
+    $(function() {
+      $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html,body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
+    </script>
+
+</head>
+<body>
+<div class = "back">
+	<!--<a href = "index.html">
+	<div id = "home" class = "Home">
+			<p id="HOME">Home</p>
+		</div>
+	</a>
+	<a href = "#other">
+		<div id = "about" class = "About">
+			<p id="ABOUT"> About</p>
+		</div>
+	</a>-->
+	<div id = "floral">
+		<a href = "#other">		
+
+			<div id = "squarish">
+					<h1 id = "andy">Andy Tran</h1>
+						<br>
+					<p id ="andy">
+						Student at the University of Michigan
+					</p>
+			</div>
+		</a>	
+	</div>
+</div>    
+
+<div id = "bottomhalf">
+    <img id= "squarishpic" src = "lol.PNG" alt = "whatever">
+	<br>
+    <h1 id = "header">---About Me---</h1>
+		<p id = "bioparagraph">Hello!  My name is Andy Tran, I'm a student at the University of Michgan
+			<br>studying Computer Science and Environmental Science.<br>
+			<br>Feel free to contact me with the links below!</p>    
+            
+	<h1 id = "header">---Contact---</h1>
+		<div id = "contact">
+			<p>
+				<a href = "http://www.facebook.com/andy.tran3">
+					facebook
+				</a>
+			 
+				<a href = "mailto:ajtran@umich.edu">
+					mail
+				</a>
+				
+				<a href = "http://www.linkedin.com/pub/andrew-tran/9b/546/695/">
+					linkedin
+				</a>
+			</p>
+		</div>		
+		<br>
+		<br>
+<a name = "other"></a>		
+</div>
+
+
+</body>
+
+</html>
